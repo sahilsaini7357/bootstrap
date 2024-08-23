@@ -1,0 +1,65 @@
+h1,
+h2,
+h3 {
+    color: red;
+    text-align: center;
+}
+
+.bg-img {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+
+.one {
+    border: dotted;
+    color: red;
+    border-radius: 20px;
+}
+
+.two {
+    border: solid;
+    color: rgb(0, 255, 179);
+    border-radius: 10px;
+}
+
+.three {
+    border: double;
+    color: rgb(255, 0, 157);
+    border-radius: 5px;
+}
+
+.spiner {
+    background-color: rgb(30, 210, 210);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 25px solid white;
+    border-top: 20px solid rgb(240, 139, 99);
+    /* animation: ani 2.5s linear infinite; */
+}
+
+@keyframes ani {
+    to {
+        transform: rotate(360deg);
+    }
+}
+img {
+    opacity: 0.5;
+  }
+  
+.img :hover{
+       opacity: 1.0;
+       transition: 0.5s;
+}
+.hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 4s;
+}
+.hover:hover{
+    width: 300px;
+    height: 300px;
+}
