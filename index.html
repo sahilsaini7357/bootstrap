@@ -280,7 +280,7 @@
         </div>
     </section>
 
-    <!-- <section>
+    <section>
 
         <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="40">
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -317,7 +317,7 @@
 
             </div>
         </body>
-    </section>  -->
+    </section>
 
     <section>
         <div class="container mt-3">
@@ -378,7 +378,7 @@
         <div class="spiner"></div>
     </section>
 
-    <h1 class="text-black">JAVASCRIPT</h1>
+    <h1 class="text-black">JAVASCRIPT BASIC</h1>
 
     <section>
         <p id="time"></p>
@@ -400,20 +400,105 @@
 
     </section>
 
-  <section>
-    <div class="d-flex gap-5 mt-5 img">
-        <img src="https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg?cs=srgb&dl=pexels-pixabay-158028.jpg&fm=jpg" alt="" height="300px" width="300px">
-        <img src="https://media.gettyimages.com/id/1414023501/photo/beautiful-ornamental-garden.jpg?s=612x612&w=gi&k=20&c=XvFJ-B89DMNYpJRh_8S2geeeXXRKleaCFQ87hMUXOmY=" alt=""  height="300px" width="300px">
-        <img src="https://img.freepik.com/free-photo/garden-flowers-mae-fah-luang-garden-locate-doi-tung-chiang-rai-thailand_335224-968.jpg" alt=""  height="300px" width="300px">
+    <section>
+        <div class="d-flex gap-5 mt-5 img">
+            <img src="https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg?cs=srgb&dl=pexels-pixabay-158028.jpg&fm=jpg"
+                alt="" height="300px" width="300px">
+            <img src="https://media.gettyimages.com/id/1414023501/photo/beautiful-ornamental-garden.jpg?s=612x612&w=gi&k=20&c=XvFJ-B89DMNYpJRh_8S2geeeXXRKleaCFQ87hMUXOmY="
+                alt="" height="300px" width="300px">
+            <img src="https://img.freepik.com/free-photo/garden-flowers-mae-fah-luang-garden-locate-doi-tung-chiang-rai-thailand_335224-968.jpg"
+                alt="" height="300px" width="300px">
+        </div>
+    </section>
+
+
+    <div class="hover mt-5"></div>
+
+    <section>
+        <p id="try">peragrap change</p>
+        <button type="button" onclick="myfunction()">try it</button>
+
+    </section>
+
+    <script>
+        function myfunction() {
+            document.getElementById('try').innerHTML = "peragraph";
+        }
+    </script>
+
+    <section>
+
+        <h1 id="number"></h1>
+    </section>
+
+    <script>
+        document.getElementById("number").innerHTML = 5 + 10;
+    </script>
+
+    <section>
+        <p id="statement"></p>
+    </section>
+
+    <script>
+        let x = 10;
+        y = 10;
+        z = x + y;
+
+        document.getElementById("statement").innerHTML = "the value of is" + z + ""
+
+    </script>
+
+    <p id="multiplay"></p>
+
+    <script>
+        document.getElementById('multiplay').innerHTML = (5 + 10) * 20 / 10;
+    </script>
+
+    <p id="try it"></p>
+
+    <script>
+        let a, r
+        a = 10;
+        r = 20;
+        document.getElementById('try it').innerHTML = 'the value is a or r = ' + a * r;
+    </script>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 border">
+                1 of 8
+            </div>
+            <div class="col-md-4 border">
+                2 of 4
+            </div>
+        </div>
+        <div class="row border mt-3">
+            <div class="col-md-4">
+                1 of 4
+            </div>
+            <div class="col-md-4 border">
+                2 of 4
+            </div>
+            <div class="col-md-4 border">
+                3 of 4
+            </div>
+        </div>
     </div>
-  </section>
 
+    <script>
+        const price1 = 15;
+        const price2 = 30;
+        total = price1 + price2;
+        alert(total);
 
-  <div class="hover mt-5"></div>
-    
+    </script>
 
-
-
+    <div class="mt-5">
+        <label for="form" class="form-label">Large file input example</label>
+        <input class="form-control form-control-lg" id="form" type="file">
+    </div>
 
 
 </body>
