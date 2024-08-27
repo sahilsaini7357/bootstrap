@@ -37,15 +37,15 @@ h3 {
     border-radius: 50%;
     border: 25px solid white;
     border-top: 20px solid rgb(240, 139, 99);
-    /* animation: ani 2.5s linear infinite; */
-}
+    animation: ani 2.5s linear infinite;
+} 
 
-@keyframes ani {
+ @keyframes ani {
     to {
         transform: rotate(360deg);
     }
-}
-img {
+} 
+ img {
     opacity: 0.5;
   }
   
